@@ -65,8 +65,8 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @DP_BOTZ🙏🥲
     DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
-» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://t.me/DP_BOTZ/Rkn-rename-bot-V3>DP_BOTZ</a>
-• ❣️ <a href=https://t.me/dpowner_bot>OWNER</a>
+» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://t.me/DP_BOTZ/DP-rename-bot-V3>DP_BOTZ</a>
+• ❣️ <a href=https://t.me/MERSAL_DHINESH>OWNER</a>
 • ❣️ <a href=https://t.me/dpowner_bot>DP_BOTZ</a> """
 
     RKN_PROGRESS = """<b>\n
