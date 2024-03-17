@@ -35,8 +35,8 @@ async def start(client, message):
     await db.add_user(client, message)                
     button = InlineKeyboardMarkup([[
         
-        InlineKeyboardButton('Uᴩᴅᴀ𝚃ᴇꜱ', url='https://t.me/MERSAL_DHINESH'),
-        InlineKeyboardButton('Sᴜᴩᴩᴏʀ𝚃', url='https://t.me/DP_BOTZ')
+        InlineKeyboardButton('Uᴩᴅᴀ𝚃ᴇꜱ', url='https://t.me/DP_BOTZ'),
+        InlineKeyboardButton('Sᴜᴩᴩᴏʀ𝚃', url='https://t.me/All_Tamil_movies_request')
         ],[
         InlineKeyboardButton('Aʙᴏυᴛ', callback_data='about'),
         InlineKeyboardButton('Hᴇʟᴩ', callback_data='help')
@@ -56,8 +56,8 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
                 
-                InlineKeyboardButton('Uᴩᴅᴀ𝚃ᴇꜱ', url='https://t.me/MERSAL_DHINESH'),
-                InlineKeyboardButton('Sᴜᴩᴩᴏʀ𝚃', url='https://t.me/DP_BOTZ')
+                InlineKeyboardButton('Uᴩᴅᴀ𝚃ᴇꜱ', url='https://t.me/DP_BOTZ'),
+                InlineKeyboardButton('Sᴜᴩᴩᴏʀ𝚃', url='https://t.me/All_Tamil_movies_request')
                 ],[
                 InlineKeyboardButton('Aʙᴏυᴛ', callback_data='about'),
                 InlineKeyboardButton('Hᴇʟᴩ', callback_data='help')
