@@ -69,11 +69,11 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("°.Oᴡɴᴇʀ.°", url="https://t.me/MERSAL_DHINESH")
+                InlineKeyboardButton("👩‍💻 𝐨𝐰𝐧𝐞𝐫 👩‍💻", url="https://t.me/MERSAL_DHINESH")
               ],[
                
-                InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞🔐", callback_data = "close"),
-                InlineKeyboardButton("Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞 🔒", callback_data = "close"),
+                InlineKeyboardButton("◀️ 𝐛𝐚𝐜𝐤", callback_data = "start")
                   ]])            
         )
     elif data == "about":
@@ -82,15 +82,15 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("💞 𝚂ᴏᴜʀᴄᴇ 𝙲ᴏᴅᴇ 💞", callback_data = "source_code")
+                InlineKeyboardButton("⚡ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 ⚡", callback_data = "source_code")
                 ],[
-                InlineKeyboardButton("👨‍🦱 ᴀᴅᴍɪɴ 👨‍🦱", url="https://t.me/MERSAL_DHINESH"),
-                InlineKeyboardButton('📯 Uᴩᴅᴀ𝚃ᴇꜱ 📯', url='https://t.me/DP_BOTZ')
+                InlineKeyboardButton("👨‍🦱 𝐀𝐝𝐦𝐢𝐧 👨‍🦱", url="https://t.me/MERSAL_DHINESH"),
+                InlineKeyboardButton('💥 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 💥', url='https://t.me/DP_BOTZ')
                 ],[
-                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("🔒 𝐂𝐥𝐨𝐬𝐞", callback_data = "close"),
+                InlineKeyboardButton("◀️ 𝐛𝐚𝐜𝐤", callback_data = "start")
                 ],[
-                InlineKeyboardButton('🎬 𝙹𝙾𝙸𝙽 𝙼𝙾𝚅𝙸𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🎬', url='https://t.me/MOVIES_DAYS')
+                InlineKeyboardButton('🎬 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐪 𝐆𝐫𝐨𝐮𝐩 🎬', url='https://t.me/All_Tamil_movies_request')
             ]])            
         )
     elif data == "source_code":
@@ -99,10 +99,10 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
                 #⚠️ don't change source code & source link ⚠️ #
-                InlineKeyboardButton("💞 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 💞", url="https://t.me/DP_BOTZ")
+                InlineKeyboardButton("⚡ 𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞 ⚡", url="https://t.me/DP_BOTZ")
             ],[
-                InlineKeyboardButton("🔒 Cʟᴏꜱᴇ", callback_data = "close"),
-                InlineKeyboardButton("◀️ Bᴀᴄᴋ", callback_data = "start")
+                InlineKeyboardButton("🔒 𝐂𝐥𝐨𝐬𝐞", callback_data = "close"),
+                InlineKeyboardButton("◀️ 𝐛𝐚𝐜𝐤", callback_data = "start")
                  ]])          
         )
     elif data == "close":
