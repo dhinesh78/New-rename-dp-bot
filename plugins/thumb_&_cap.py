@@ -8,7 +8,7 @@ async def add_caption(client, message):
        return await rkn.edit("**__Gɪᴠᴇ Tʜᴇ Cᴀᴩᴛɪᴏɴ__\n\nExᴀᴍᴩʟᴇ:- `/set_caption {filename}\n\n💾 Sɪᴢᴇ: {filesize}\n\n⏰ Dᴜʀᴀᴛɪᴏɴ: {duration}`**")
     caption = message.text.split(" ", 1)[1]
     await db.set_caption(message.from_user.id, caption=caption)
-    await rkn.edit("__**✅ Cᴀᴩᴛɪᴏɴ Sᴀᴠᴇᴅ**__")
+    await rkn.edit("__**✅ 𝐜𝐚𝐩𝐭𝐢𝐨𝐧 𝐬𝐚𝐯𝐞𝐝 𝐛𝐲 𝐃𝐩_𝐁𝐎𝐓𝐙**__")
    
 @Client.on_message(filters.private & filters.command(['del_caption', 'delete_caption', 'delcaption']))
 async def delete_caption(client, message):
@@ -54,6 +54,6 @@ async def removethumb(client, message):
 async def addthumbs(client, message):
     rkn = await message.reply_text("__**ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ**__")
     await db.set_thumbnail(message.from_user.id, file_id=message.photo.file_id)                
-    await rkn.edit("✅️ __**Tʜᴜᴍʙɴᴀɪʟ Sᴀᴠᴇᴅ**__")
+    await rkn.edit("✅️ __**𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐒𝐚𝐯𝐞𝐝 𝐁𝐲 𝐃𝐩_𝐁𝐨𝐭𝐳**__")
 
 
