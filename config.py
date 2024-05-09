@@ -26,22 +26,18 @@ class Config(object):
 
 class rkn(object):
     # part of text configuration
-    START_TXT = """<b>Ｈ𝙰𝙸, {}👋
+    START_TXT = """<b>𝐇𝐞𝐲, {}👋
 
-𝚃ʜɪs 𝙸s 𝙰ɴ 𝙰ᴅᴠᴀᴄᴇᴅ 𝙰ɴᴅ 𝚈ᴇᴛ 𝙿ᴏᴡᴇʀғᴜʟ 𝚁ᴇɴᴀᴍᴇ 𝙱ᴏᴛ
-𝚄sɪɴɢ 𝚃ʜɪs 𝙱ᴏᴛ 𝚈ᴏᴜ 𝙲ᴀɴ 𝚁ᴇɴᴀᴍᴇ & 𝙲ʜᴀɴɢᴇ 𝚃ʜᴜᴍʙɴᴀɪʟ 𝙾ғ 𝚈ᴏᴜʀ 𝙵ɪʟᴇ 
-𝚈ᴏᴜ 𝙲ᴀɴ 𝙰ʟsᴏ 𝙲ᴏɴᴠᴇʀᴛ 𝚅ɪᴅᴇᴏ 𝚃ᴏ 𝙵ɪʟᴇ & 𝙵ɪʟᴇ 𝚃ᴏ 𝚅ɪᴅᴇᴏ
-𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙰𝙻𝚂𝙾 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙲𝚄𝚂𝚃𝙾𝙼 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝙰𝙽𝙳 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽
-
-Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @DP_BOTZ 💞</b>"""
+𝐈𝐀𝐦 𝐀𝐝𝐯𝐚𝐧𝐜𝐞 & 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥𝐥 𝐅𝐢𝐥𝐞 𝐑𝐞𝐧𝐚𝐦𝐞 𝐁𝐨𝐭 . 
+𝐘𝐨𝐮 𝐂𝐚𝐧 𝐑𝐞𝐧𝐚𝐦𝐞 𝐅𝐢𝐥𝐞 𝐀𝐧𝐝 𝐅𝐢𝐥𝐞 𝐓𝐨 𝐯𝐢𝐝𝐞𝐨 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 
+𝐀𝐧𝐝 𝐜𝐮𝐬𝐭𝐨𝐦 𝐓𝐡𝐮𝐦𝐛𝐧𝐚𝐢𝐥 𝐀𝐧𝐝 𝐂𝐮𝐬𝐭𝐨𝐦 𝐂𝐚𝐩𝐭𝐢𝐨𝐧 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 . 
+𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 𝐜𝐫𝐞𝐚𝐭𝐞 𝐁𝐲 : 💙 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 💙 <a href=https://t.me/DP_BOTZ</a></b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
 ├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : <a href=https://t.me/DP_BOTZ>DP_BOTZ</a> 
 ├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : <a href=https://t.me/All_Tamil_movies_request/DPDeveloper>DP_BOTZ</a>
-├📕 Lɪʙʀᴀʀy : <a href=https://t.me/DP_BOTZ/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
 ├✏️ Lᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>Pyᴛʜᴏɴ 3</a>
-├💾 Dᴀᴛᴀ Bᴀꜱᴇ: <a href=https://cloud.mongodb.com>Mᴏɴɢᴏ DB</a>
 ├📊 ᴠᴇʀsɪᴏɴ: <a href=https://t.me/DP_BOTZ/DP-rename-bot-V3>𝟸.𝟶.𝟶</a></b>     
 ╰───────────────⍟ """
 
@@ -59,15 +55,15 @@ Exᴀᴍᴩʟᴇ:- /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 💾 Sɪᴢᴇ: {filesize}
 ⏰ Dᴜʀᴀᴛɪᴏɴ: {duration}
 ✏️ <b><u>Hᴏᴡ Tᴏ Rᴇɴᴀᴍᴇ A Fɪʟᴇ</u></b>
-<b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ Nɴᴀᴍᴇ \nAɴᴅ Aᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
+<b>•></b> Sᴇɴᴅ Aɴy Fɪʟᴇ Aɴᴅ Tyᴩᴇ Nᴇᴡ Fɪʟᴇ ɴᴀᴍᴇ \nAɴᴅ sᴇʟᴇᴄᴛ Tʜᴇ Fᴏʀᴍᴀᴛ [ document, video, audio ].           
 ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/All_Tamil_movies_request>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
 """
 
 #⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @DP_BOTZ🙏🥲
     DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
 » 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://t.me/DP_BOTZ/DP-rename-bot-V3>DP_BOTZ</a>
-• ❣️ <a href=https://t.me/MERSAL_DHINESH>OWNER</a>
-• ❣️ <a href=https://t.me/dpowner_bot>DP_BOTZ</a> """
+• ❣️ <a href=https://t.me/MERSAL_DHINESH>⚡ 𝐨𝐰𝐧𝐞𝐫 ⚡</a>
+• ❣️ <a href=https://t.me/dpowner_bot>© 𝐀𝐝𝐦𝐢𝐧 ©</a> """
 
     RKN_PROGRESS = """<b>\n
 ╭━━━━❰DP PROCESSING...❱━➣
