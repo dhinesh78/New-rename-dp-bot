@@ -35,11 +35,11 @@ async def start(client, message):
     await db.add_user(client, message)                
     button = InlineKeyboardMarkup([[
         
-        InlineKeyboardButton('Uᴩᴅᴀ𝚃ᴇꜱ', url='https://t.me/DP_BOTZ'),
-        InlineKeyboardButton('Sᴜᴩᴩᴏʀ𝚃', url='https://t.me/All_Tamil_movies_request')
+        InlineKeyboardButton('💥 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/DP_BOTZ'),
+        InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭💜', url='https://t.me/All_Tamil_movies_request')
         ],[
-        InlineKeyboardButton('Aʙᴏυᴛ', callback_data='about'),
-        InlineKeyboardButton('Hᴇʟᴩ', callback_data='help')
+        InlineKeyboardButton('💌 𝐀𝐛𝐨𝐮𝐭', callback_data='about'),
+        InlineKeyboardButton('𝐡𝐞𝐥𝐩 ❗', callback_data='help')
          ]])
     if Config.RKN_PIC:
         await message.reply_photo(Config.RKN_PIC, caption=rkn.START_TXT.format(user.mention), reply_markup=button)       
@@ -55,13 +55,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=rkn.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([[
-                
-                InlineKeyboardButton('Uᴩᴅᴀ𝚃ᴇꜱ', url='https://t.me/DP_BOTZ'),
-                InlineKeyboardButton('Sᴜᴩᴩᴏʀ𝚃', url='https://t.me/All_Tamil_movies_request')
-                ],[
-                InlineKeyboardButton('Aʙᴏυᴛ', callback_data='about'),
-                InlineKeyboardButton('Hᴇʟᴩ', callback_data='help')
-                   ]])
+        
+        InlineKeyboardButton('💥 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/DP_BOTZ'),
+        InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭💜', url='https://t.me/All_Tamil_movies_request')
+        ],[
+        InlineKeyboardButton('💌 𝐀𝐛𝐨𝐮𝐭', callback_data='about'),
+        InlineKeyboardButton('𝐡𝐞𝐥𝐩 ❗', callback_data='help')
+         ]])
         )
     elif data == "help":
         await query.message.edit_text(
@@ -72,7 +72,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("°.Oᴡɴᴇʀ.°", url="https://t.me/MERSAL_DHINESH")
               ],[
                
-                InlineKeyboardButton("Cʟᴏꜱᴇ", callback_data = "close"),
+                InlineKeyboardButton("𝐂𝐥𝐨𝐬𝐞🔐", callback_data = "close"),
                 InlineKeyboardButton("Bᴀᴄᴋ", callback_data = "start")
                   ]])            
         )
