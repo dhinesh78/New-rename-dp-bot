@@ -1,21 +1,21 @@
-# (©) @RknDeveloper ❣️
+
 import re, os, time
 id_pattern = re.compile(r'^.\d+$') 
 
 class Config(object):
     # pyro client config
-    API_ID = os.environ.get("API_ID", "20652787")
-    API_HASH = os.environ.get("API_HASH", "5dea928561e4d2eb77a371edf8b2eb2a")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6380339169:AAH5vkzcx8Y2ZaRhJURV4eEcah332uAjO0c") 
+    API_ID = os.environ.get("API_ID", "")
+    API_HASH = os.environ.get("API_HASH", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","DP_BOTZ")     
-    DB_URL = os.environ.get("DB_URL","mongodb+srv://Aloneboy:Aloneboytg@cluster0.nmeelsr.mongodb.net/?retryWrites=true&w=majority")
+    DB_URL = os.environ.get("DB_URL","")
  
     # other configs
     BOT_UPTIME = time.time()
     RKN_PIC = os.environ.get("RKN_PIC", "https://te.legra.ph/file/ba16b6f4c78879c5d5527.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1242556540').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1242556540 ').split()]
     FORCE_SUB = os.environ.get("FORCE_SUB", "-1002008853384") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
 
